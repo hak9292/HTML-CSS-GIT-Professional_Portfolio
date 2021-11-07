@@ -16,3 +16,6 @@ Began to sketch more specifics:
         ![col3](./assets/col3.png)
     column 4 layout:
         ![col4](./assets/col4.png)
+
+Deployed link:
+https://hak9292.github.io/HTML-CSS-GIT-Professional_Portfolio/
