@@ -1,0 +1,43 @@
+/* import custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* navbar styling */
+
+nav{
+    /* position: fixed; */
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+.name{
+    color: lightblue;
+    font-family: 'Ubuntu', 'sans-serif';
+    width: 200px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+nav ul li a:hover{
+    color: lightgrey
+}
