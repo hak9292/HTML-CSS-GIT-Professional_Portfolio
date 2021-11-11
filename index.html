@@ -7,113 +7,79 @@
     <title>Professional Portfoilo</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-
 </head>
 
 <body>
-<!-- Navbar -->
-    <nav>
-        <div class="name">
-            <a ref='#'>Hee Hoon Kim</a>
-        </div>
-        <div class="navigation">
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Work</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Column 1 -->
-        <aside class="col1">
-            <section class="box1">
-                <h1>About</h1>
-            </section>
-        </aside>
-        <aside class="col1">
-            <section class="box1">
-                <h1>Work</h1>
-            </section>
-        </aside>
-        <aside class="col1">
-            <section class="box1">
-                <h1>Contact</h1>
-            </section>
-        </aside>
-
-    <!-- Column 2 -->
-        <!-- Bio -->
-        <div class="col2">
-            <section class="box2">
-                <p id="bio">
+    <!-- Navbar -->
+    <header>
+        <a class="name" href="#home">Hee Hoon Kim</a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Row 1 -->
+        <div class="row row1">
+            <div class="col col1">
+                <h1 id="about">About</h1>
+            </div>
+            <div class="col col2">
+                <p>
                     Hello! My name is Hee Hoon Kim, and I am currently
                     enrolled in my third week of Georgia Tech Coding Bootcamp.
-                    I am fascinated by the capability of coding and am looking
-                    forward to working with you! Welcome to my page!
+                    I am fascinated by the capabilities of coding and am
+                    looking forward to working with you. Welcome to my page!
                 </p>
-            </section>
-        </div>
-
-        <!-- Code Refractor -->
-        <div class="col2">
-            <section class="box2">
-                <!-- "crss" short for code-refractor-screen-shot -->
-                <img src="assets/images/IMG_0225.jpg" id="crss">
-                <h2>
-                    Code Refractor
-                </h2>
-                <p>
-                    (insert information about assignmet here)
-                </p>
-            </section>
-        </div>
-        
-        <!-- Contact.Social Media -->
-        <div class="col2">
-            <section class="box2">
-                <!-- twitter -->
-                <div class="box2tw">
-                    <img src="assets/images/IMG_0225.jpg" id="tw">
-                </div>
-                <!-- facebook -->
-                <div class="box2fb">
-                    <img src="assets/images/IMG_0225.jpg" id="fb">
-                </div>
-                <!-- instagram -->
-                <div class="box2ig">
-                    <img src="assets/images/IMG_0225.jpg" id="ig">
-                </div>
-                <!-- linkedin -->
-                <div class="box2li">
-                    <img src="assets/images/IMG_0225.jpg" id="li">
-                </div>
-            </section>
-        </div>
-
-    <!-- Column 3 -->
-        <!-- portrait -->
-        <div class="col3">
-            <section class="box3">
-                <img src="assets/images/IMG_0225.jpg" id="portrait">
             </div>
-        <div class="col3">
-            
+            <div class="col col3">
+            </div>
+            <di class="col col4">
+                <img id="portrait" src="assets/images/portrait.jpg">
+            </di>
         </div>
-        <div class="col3">
-            
+        <!-- Row 2 -->
+        <div class="row row2">
+            <div class="col col1">
+                <h1 id="work">Work</h1>
+            </div>
+            <!-- HW 1 -->
+            <div class="col col2">
+                <h2>Code Refractor</h2>
+                <img src="./assets/images/crss.png" alt="Code Refractor Screenshot">
+                <a id="codelinks" href="https://hak9292.github.io/HTML-CSS-GIT-Code_Refractor/" target="_blank">Link to Project</a>
+            </div>
+            <!-- HW 3 -->
+                <h2>Password Generator</h2>
+            <div class="col col3">
+                <img id="3code" src="./assets/images/3code.png" alt="Password Generator Screenshot">
+                    <a id=codelinks href="hw3link.com">Coming soon!</a>
+            </div>
+            <div class="col col4">
+                <img id="2code" src="./assets/images/2code.png" alt="Professional Portfolio">
+                    <a id=codelinks href="hw2link.com">Source Code</a>
+            </div>
         </div>
-             </section>
+        <!-- Row 3 -->
+        <div class="row row3">
+            <div class="col col1">
+                <h1 id="contact">Contact</h1>
+            </div>
+            <div class="col col2">
+                <img class="icon" src="assets/images/fb_icon.svg">
+                <img class="icon" src="assets/images/ig_icon.svg">
+                <img class="icon" src="assets/images/li_icon.svg">
+                <img class="icon" src="assets/images/tw_icon.svg">
+            </div>
+            <div class="col col3">
+                <img class="icon" src="assets/images/em_icon.svg">
+            </div>
+            <div class="col col4">
+                <img class="icon" src="assets/images/gh_icon.svg">
+            </div>
         </div>
-</body>
-
-</html>
+    </main>
+    <footer>
+        <h1>Made by Hee Hoon Kim using HTML/CSS</h1>
+    </footer>
