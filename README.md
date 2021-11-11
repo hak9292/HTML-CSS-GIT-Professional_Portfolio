@@ -19,3 +19,7 @@ Began to sketch more specifics:
 
 Deployed link:
 https://hak9292.github.io/HTML-CSS-GIT-Professional_Portfolio/
+
+updates:
+I changed the method/approach I took and redesigned everything.
+
